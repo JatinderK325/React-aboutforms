@@ -1,5 +1,5 @@
 import useInput from "../hooks/use-input";
-
+// component
 const SimpleInput = (props) => {
   const {
     value: enteredName,

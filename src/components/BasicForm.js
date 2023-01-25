@@ -2,7 +2,6 @@ import useInput from "../hooks/use-input";
 
 const BasicForm = (props) => {
 
-  // hello world
   const {
     value: enteredFirstName,
     hasError: firstNameInputHasError,
@@ -47,7 +46,7 @@ const BasicForm = (props) => {
     //   return;
     // }
 
-    if(!formIsValid){
+    if (!formIsValid) {
       return;
     }
 
